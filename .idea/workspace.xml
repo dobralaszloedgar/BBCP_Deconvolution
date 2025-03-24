@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="45dd2bd0-b72d-4a53-b383-61e006d7831b" name="Changes" comment="New">
       <change beforePath="$PROJECT_DIR$/../BBCP-Deconvolution" beforeDir="false" afterPath="$PROJECT_DIR$/../BBCP-Deconvolution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OT-2 Scripts/.idea" beforeDir="false" afterPath="$PROJECT_DIR$/../OT-2 Scripts/.idea" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
