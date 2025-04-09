@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45dd2bd0-b72d-4a53-b383-61e006d7831b" name="Changes" comment="New">
-      <change afterPath="$PROJECT_DIR$/Deconvolution V3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deconvolution_V2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deconvolution_V2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OT-2_Scripts" beforeDir="false" afterPath="$PROJECT_DIR$/../OT-2_Scripts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +28,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2um6KIHCebhCJBzLxQGIUhewuzB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.Deconvolution V3.executor": "Run",
     "Python.Deconvolution_V2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,10 +94,19 @@
       <option name="project" value="LOCAL" />
       <updated>1742843117474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New">
+      <option name="closed" value="true" />
+      <created>1744232672834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744232672834</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New" />
     <option name="LAST_COMMIT_MESSAGE" value="New" />
   </component>
