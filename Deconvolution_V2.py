@@ -7,19 +7,19 @@ from scipy.interpolate import interp1d
 import matplotlib.font_manager
 
 # Configuration
-txt_file = "G:/Edgar Dobra/GPC Samples/Fall 2024/11.15.2024_GB_GRAFT_PS-b-2PLA.txt"
-rt_lim = [7, 19]  # Retention time limits
+txt_file = "G:\Edgar Dobra\GPC Samples\Fall 2024\11.15.2024_GB_GRAFT_PS-b-2PLA.txt"
+rt_lim = [7, 23]  # Retention time limits
 y_lim = [-0.02, 1]
 number_of_peaks = 4
 peaks = []  # [11.74, 12.23, 13.02, 17.53] for manual entry
 peak_names = ["PS-b-2PLA-b-PS", "PS-b-2PLA", "PS-b", "PS"]
-peak_wideness_range = [100, 400]  # set to [100, 800] for default
-baseline_method = 'quadratic'
-baseline_ranges = [[9.0, 10], [16, 16.3], [18.3, 19]]
+peak_wideness_range = [100, 800]  # set to [100, 800] for default
+baseline_method = 'linear'
+baseline_ranges = [[9.0, 10], [22.5, 22.8]]
 
 # Calibration and MW conversion
-RI_calibration = "G:/Edgar Dobra/GPC Samples/Calibration Curves/RI Calibration Curve 2024 September.txt"
-mw_x_lim = [1e3, 1e8]
+RI_calibration = "G:/Edgar Dobra/UV MW.txt"
+mw_x_lim = [1e2, 1e8]
 
 # Font settings
 matplotlib.rcParams['font.family'] = 'Avenir Next LT Pro'
