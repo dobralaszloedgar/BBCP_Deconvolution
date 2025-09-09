@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import streamlit as sl
 import numpy as np
+from fontTools.misc.cython import returns
 from scipy.optimize import curve_fit
 from scipy.signal import find_peaks
 from scipy.integrate import trapezoid
@@ -12,6 +13,10 @@ sl.title("BBCP Deconvolution V3")
 
 cal_file = sl.file_uploader("Upload Calibration File (.txt)")
 data_file = sl.file_uploader("Upload Data File (.txt)")
+
+if cal_file and data_file:
+    txt_file = data_file
+    RI_calibration = cal_file
 
 # Configuration
 txt_file = data_file
