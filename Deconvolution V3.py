@@ -8,10 +8,10 @@ from scipy.interpolate import interp1d
 import matplotlib.font_manager
 
 # Website
-st.title("BBCP Deconvolution V3")
+sl.title("BBCP Deconvolution V3")
 
-cal_file = st.file_uploader("Upload Calibration File (.txt)")
-data_file = st.file_uploader("Upload Data File (.txt)")
+cal_file = sl.file_uploader("Upload Calibration File (.txt)")
+data_file = sl.file_uploader("Upload Data File (.txt)")
 
 # Configuration
 txt_file = data_file
