@@ -7,7 +7,7 @@ from scipy.interpolate import interp1d
 import matplotlib.font_manager
 
 # Configuration
-txt_file = r"G:\Edgar Dobra\GPC Samples\Fall 2024\11.15.2024_GB_GRAFT_PS-b-2PLA.txt"
+txt_file = r"G:\Edgar Dobra\GPC Samples\2024 Fall\11.15.2024_GB_GRAFT_PS-b-2PLA.txt"
 mw_lim = [1e3, 1e7]  # Molecular weight limits for analysis (g/mol)
 y_lim = [-0.02, 1]
 number_of_peaks = 4
